@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+}
+
+.nav-item {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.dropdown-menu {
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(81, 80, 80, 0.405)
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgba(20, 20, 20, 0);
+  font-size: 1.5rem;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.mycarousel {
+  margin-bottom: 25px;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+div.gallery {
+  margin: 50px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
